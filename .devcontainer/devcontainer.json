@@ -1,0 +1,16 @@
+{
+    "build": { "dockerfile": "../Dockerfile" },
+    "customizations": {
+      // Configure properties specific to VS Code.
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "innoverio.vscode-dbt-power-user",
+          "bastienboutonnet.vscode-dbt",
+          "jjuanramos.dbt-bigquery-preview"
+
+        ]
+      }
+    },
+
+  }
